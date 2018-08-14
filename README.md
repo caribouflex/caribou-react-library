@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-component-library here.
+Library of Web Component built with [React](https://reactjs.org/)
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
@@ -13,15 +13,14 @@ Describe react-component-library here.
 [npm]: https://www.npmjs.org/package/npm-package
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+[coveralls]: https://coveralls.io/github/caribouflex/react-component-library
 
 
+# Docs
 
+See the documentation (link to add) with live editable examples.
 
-# React Component Library
+## Style
 
-
-## Introduction
-
-This project will contain multiple React Component.
+This will use the [styled-components](https://www.styled-components.com/) library.
 
