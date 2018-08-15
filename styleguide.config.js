@@ -1,4 +1,5 @@
 const { createConfig, babel, postcss } = require('webpack-blocks')
+const path = require('path')
 
 module.exports = {
     sections: [
@@ -29,5 +30,8 @@ module.exports = {
         }
     ],
     webpackConfig: createConfig([babel(), postcss()]),
-    styleguideDir:"docs"
+    styleguideDir: "docs",
+    styleguideComponents: {
+        Wrapper: path.join(__dirname, "src/components/styleguide/ThemeWrapper")
+    }
 }
