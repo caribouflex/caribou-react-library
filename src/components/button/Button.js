@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const Button = styled.button`
+const Button = styled.button.attrs({
+    type: props => props.type 
+})`
     background: ${props => props.theme.primaryButtonColor};
     border: none;
     border-radius: 2px;
@@ -35,11 +37,14 @@ Button.propTypes = {
         primaryButtonHoverColor: PropTypes.string,
         /** Button's background color on active */
         primaryButtonSelectedColor: PropTypes.string
-    })
+    }),
+
+    /** Button attribute that must reflect the button use */
+    type: PropTypes.string.required
 }
 
 Button.defaultProps = {
-    label: "Submit"
+    type: "button"
 }
 
 /**

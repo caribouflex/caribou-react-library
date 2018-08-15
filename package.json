@@ -21,7 +21,10 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chai": "^4.1.2",
+    "recompose": "^0.28.2"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
