@@ -15,12 +15,24 @@ Library of Web Component built with [React](https://reactjs.org/)
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/caribouflex/react-component-library
 
-
 # Docs
 
-See the documentation (link to add) with live editable examples.
+See the [documentation](https://caribouflex.github.io/react-component-library/) with live editable examples.
 
-## Style
+# Configuration
+
+This library is created using the [NWB](https://github.com/insin/nwb) toolkit.
+
+The documentation is created with [React Styleguidist](https://github.com/styleguidist/react-styleguidist)
+
+# Build
+
+Webpack is used to build the documentation part.
+
+NWB is used for the library build.
+
+# Style
 
 This will use the [styled-components](https://www.styled-components.com/) library.
 
+Theming is enabled and can be modified for each components.
