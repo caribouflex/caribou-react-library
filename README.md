@@ -6,13 +6,13 @@
 
 Library of Web Component built with [React](https://reactjs.org/)
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+[build-badge]: https://img.shields.io/travis/caribouflex/react-component-library/master.png?style=flat-square
+[build]: https://travis-ci.org/caribouflex/react-component-library
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
 [npm]: https://www.npmjs.org/package/npm-package
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
+[coveralls-badge]: https://img.shields.io/coveralls/caribouflex/react-component-library/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/caribouflex/react-component-library
 
 # Docs
