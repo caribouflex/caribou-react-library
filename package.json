@@ -1,7 +1,7 @@
 {
-  "name": "react-component-library",
+  "name": "caribou-react-library",
   "version": "1.0.0",
-  "description": "react-component-library React component",
+  "description": "Library of awesome and useful react components",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
