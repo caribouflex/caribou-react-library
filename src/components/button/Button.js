@@ -40,7 +40,7 @@ Button.propTypes = {
     }),
 
     /** Button attribute that must reflect the button use */
-    type: PropTypes.string.required
+    type: PropTypes.string
 }
 
 Button.defaultProps = {

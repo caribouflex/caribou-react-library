@@ -1,5 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     mode:'production',
@@ -14,16 +15,12 @@ module.exports = {
     module: {
         rules: [{
                 test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,
-                loader: 'babel-loader',
-                options: {
-                    presets: ['babel-preset-env', 'babel-preset-react']
-                }
-            },
-            {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader']
+                exclude: /node_modules/,
+                loader: 'babel-loader'
             }
         ]
     }
+    // plugins: [
+    //     new BundleAnalyzerPlugin()
+    // ]
 };
