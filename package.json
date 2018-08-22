@@ -13,7 +13,8 @@
     "start:dev": "webpack-dev-server",
     "start": "parcel demo/index.html --out-dir demo/dist",
     "build": "webpack",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build && npm run styleguide:build"
   },
   "repository": {
     "type": "git",
