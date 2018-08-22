@@ -26,7 +26,7 @@ const cementGrey = "#C2C2C2";
 const transparent = "transparent";
 
 
-module.exports = {
+var theme = {
 
     primaryColor: actionBlue,
     fontColor: nightSky,
@@ -42,7 +42,7 @@ module.exports = {
     secondaryButtonHoverColor: hoverNightSky,
     secondaryButtonSelectedColor: selectedNightSky,
     secondaryButtonBorderColor: nightSky,
-    secondaryButtonFontColor: this.fontColor,
+    secondaryButtonFontColor: nightSky,
 
     /** State color */
     cautionColor: cautionRed,
@@ -50,3 +50,8 @@ module.exports = {
     successColor: goodGreen,
     attentionColor: attentionYellow,
 }
+
+// theme["button"] = {
+// }
+
+module.exports = theme;

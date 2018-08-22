@@ -54,4 +54,4 @@ Button.defaultProps = {
  * Only the property send will be override.
  */
 /** @component */
-export default Button;
+export { Button };

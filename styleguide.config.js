@@ -29,7 +29,7 @@ module.exports = {
             usageMode: 'expand' // 'hide' | 'collapse' | 'expand'
         }
     ],
-    webpackConfig: createConfig([babel(), postcss()]),
+    // webpackConfig: createConfig([babel(), postcss()]),
     styleguideDir: "docs",
     styleguideComponents: {
         Wrapper: path.join(__dirname, "src/components/styleguide/ThemeWrapper")
